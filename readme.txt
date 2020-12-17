@@ -1,0 +1,1 @@
+queriendo hacer un quiz rapido que te de hiragans y tengas que apretar el correcto
