@@ -1,6 +1,15 @@
 import React from 'react';
 import './App.css';
 
+
+function randomLink(){
+  function randomInt(){
+    return Math.floor(Math.random() * (5 - 0 + 1)) + 0;
+ }
+ let elegido: number  = hiraList[];
+
+}
+
 function App() {
   return (
     <div className="App">
