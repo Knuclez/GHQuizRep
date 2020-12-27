@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
-
+import {hiraArray} from './hiras/hindex'
 
 function randomLink(){
-  function randomInt(){
+  
+    console.log(hiraArray);
     return Math.floor(Math.random() * (5 - 0 + 1)) + 0;
- }
- let elegido: number  = hiraList[];
+ 
+    
 
 }
 
 function App() {
+  randomLink();
   return (
     <div className="App">
       <header className="App-header">
