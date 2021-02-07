@@ -1,15 +1,7 @@
 import React from 'react';
 import '../assets/css/App.css';
 import Navbar from "./Navbar"
-import Regform from './Regform';
-
- {/*function randomLink(numero){
-  
-  var elegido = hiraArray[numero];
-  
-  return elegido;
-  
-}*/}
+import Router from '../Router';
 
 
 function App() {
@@ -19,6 +11,7 @@ function App() {
     <div className="App">
       
       <Navbar/>
+      <Router/>
       
     </div>
   );
